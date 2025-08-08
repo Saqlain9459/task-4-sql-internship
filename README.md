@@ -53,17 +53,14 @@ Here are **5 sample queries** from the complete set of 15:
 SELECT dept_id, SUM(salary) AS total_salary
 FROM employees
 GROUP BY dept_id;
-![Q2](https://github.com/user-attachments/assets/029848de-e1eb-4d26-94e4-e93fed7c14c7)
-
-
+<img width="217" height="106" alt="image" src="https://github.com/user-attachments/assets/98300cb0-3b09-4f8a-9b34-200cb3081993" />
 
 
 -- 2. Average age of employees by department
 SELECT dept_id, AVG(age) AS avg_age
 FROM employees
 GROUP BY dept_id;
-![Query Result 2](Screenshots/Q3.jpg)
-
+<img width="215" height="98" alt="image" src="https://github.com/user-attachments/assets/ec84b581-660c-4e2b-b820-42b6c7c57390" />
 
 
 -- 3. Departments with more than 4 employees
@@ -71,7 +68,7 @@ SELECT dept_id, COUNT(*) AS total_employees
 FROM employees
 GROUP BY dept_id
 HAVING COUNT(*) > 4;
-![Query Result 3](Screenshots/Q12.jpg)
+<img width="221" height="71" alt="image" src="https://github.com/user-attachments/assets/9a566f1a-c1f3-4d51-8ffe-8396958e12f2" />
 
 
 -- 4. Department name with average salary and average age
@@ -79,16 +76,14 @@ SELECT d.dept_name, AVG(e.salary) AS avg_salary, AVG(e.age) AS avg_age
 FROM departments d
 JOIN employees e ON d.dept_id = e.dept_id
 GROUP BY d.dept_name;
-![Query Result 4](Screenshots/Q14.jpg)
-
+<img width="221" height="109" alt="image" src="https://github.com/user-attachments/assets/e594b024-feb5-42bc-908a-0f295ee604fb" />
 
 
 -- 5. Gender-wise average salary and total salary
 SELECT gender, AVG(salary) AS avg_salary, SUM(salary) AS total_salary
 FROM employees
 GROUP BY gender;
-![Query Result 1](Screenshots/Q15.jpg)
-
+<img width="221" height="65" alt="image" src="https://github.com/user-attachments/assets/f53580cc-68ec-4c0b-abc9-02d1ee5347d0" />
 
 
 ```
