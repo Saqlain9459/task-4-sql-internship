@@ -53,7 +53,8 @@ Here are **5 sample queries** from the complete set of 15:
 SELECT dept_id, SUM(salary) AS total_salary
 FROM employees
 GROUP BY dept_id;
-![Query Result 1](Screenshots/Q2.jpg)
+![Q2](https://github.com/user-attachments/assets/029848de-e1eb-4d26-94e4-e93fed7c14c7)
+
 
 
 
