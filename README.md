@@ -96,9 +96,6 @@ GROUP BY gender;
 <img width="221" height="65" alt="image" src="https://github.com/user-attachments/assets/f53580cc-68ec-4c0b-abc9-02d1ee5347d0" />
 
 
-```
-
----
 
 ## 🚀 How to Run
 1. Open **MySQL Workbench** or any SQL editor.
