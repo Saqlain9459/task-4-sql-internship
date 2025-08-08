@@ -103,7 +103,7 @@ GROUP BY gender;
 ## 🚀 How to Run
 1. Open **MySQL Workbench** or any SQL editor.
 2. Create a new database:
-   ```sql
+    ```sql
    CREATE DATABASE task4;
    USE task4;
    ```
